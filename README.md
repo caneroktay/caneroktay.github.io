@@ -1,2 +1,2 @@
 # caneroktay.github.io
-Canaer Oktay Personal Website
+Caner Oktay Personal Website
