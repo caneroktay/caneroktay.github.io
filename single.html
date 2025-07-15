@@ -2,8 +2,7 @@
 <html lang="en">
   <head>
 	<script>
-    if (window.location.pathname.endsWith('single.html')) {
-      window.location.replace('/');
+    window.history.replaceState({}, '', window.location.pathname.replace('.html', ''));
     	}
   </script>
     <!-- Required meta tags -->
