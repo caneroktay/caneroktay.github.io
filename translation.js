@@ -17,7 +17,12 @@ const translations = {
         footerLink2: 'Hakkımda',
         footerLink3: 'Projeler',
         footerLink4: 'İletişim',
-        copyrightText: '&copy <a href="">caneroktay.com</a> Tüm Hakları Saklıdır.'
+        copyrightText: '&copy <a href="">caneroktay.com</a> Tüm Hakları Saklıdır.',
+        kontaktTitle: 'Bana Yaz!',
+        kontaktName: 'İsim',
+        kontaktEmail: 'E-posta',
+        kontaktMessage: 'Mesajınız',
+        kontaktSubmit: 'Gönder'
     },
     'de': {
         navLink1: 'Startseite',
@@ -35,7 +40,12 @@ const translations = {
         footerLink2: 'Über mich',
         footerLink3: 'Projekte',
         footerLink4: 'Kontakt',
-        copyrightText: '&copy <a href="">caneroktay.com</a> Alle Rechte vorbehalten.'
+        copyrightText: '&copy <a href="">caneroktay.com</a> Alle Rechte vorbehalten.',
+        kontaktTitle: 'Schreib mir!',
+        kontaktName: 'Name',
+        kontaktEmail: 'E-Mail',
+        kontaktMessage: 'Ihre Nachricht',
+        kontaktSubmit: 'Abschicken'
     }
 };
 

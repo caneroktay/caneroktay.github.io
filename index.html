@@ -269,11 +269,32 @@
 	</div> <!-- Article Grid Row Ends -->
 </div> <!-- Article Grid Container Ends -->
 
-<!-- More articles button -->
-
+<!-- More articles button 
 <div class="container text-center pb-3 mb-5">
 		<a href="#" class="btn btn-lg btn-light" data-translate-key="moreArticlesButton">More Articles</a>
 </div>
+-->
+
+<!-- Kontact Form -->
+<div class="contact-container">
+  <form action="https://formspree.io/f/BURAYA_ID_GELECEK" method="POST">
+    <h3 data-translate-key="kontaktTitle">Schreib mir!</h3>
+    
+    <input data-translate-key="kontaktName" type="text" name="name" placeholder="Name" required>
+    <input data-translate-key="kontaktEmail" type="email" name="email" placeholder="E-mail" required>
+    <textarea data-translate-key="kontaktMessage" name="message" placeholder="Ihre Nachricht" rows="5" required></textarea>
+    
+    <button data-translate-key="kontaktSubmit" type="submit">Abschicken</button>
+  </form>
+</div>
+
+<style>
+  .contact-container { max-width: 600px; margin: auto; font-family: sans-serif; padding: 45px; }
+  form { display: flex; flex-direction: column; gap: 10px; }
+  input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 25px; }
+  button { padding: 10px; background: #dd8741; color: white; border: none; cursor: pointer; border-radius: 25px; }
+  button:hover { background: #ae6d37; }
+</style>
 
 
 <!-- Footer section  -->
