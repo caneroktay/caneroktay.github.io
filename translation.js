@@ -44,7 +44,6 @@ function setLanguage(lang) {
     elements.forEach(element => {
         const key = element.getAttribute('data-translate-key');
         if (translations[lang] && translations[lang][key]) {
-            // Telif hakkı metni gibi <a> etiketi içeren durumlar için innerHTML kullanın
             if (key === 'copyrightText') {
                 element.innerHTML = translations[lang][key];
             } else {
@@ -78,6 +77,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Sayfa yüklendiğinde başlangıç dilini ayarla
-    const initialLang = localStorage.getItem('selectedLanguage') || 'tr';
+    const initialLang = localStorage.getItem('selectedLanguage') || 'de';
     setLanguage(initialLang);
 });
