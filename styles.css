@@ -24,6 +24,21 @@ a:hover {
 	color: #000000 !important;
 }
 
+#lang-toggle {
+	background-color: #E8E8E8;
+	padding: 8px 12px !important;
+	border-radius: 20px;
+	margin-left: 15px;
+	transition: all 0.3s ease;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+#lang-toggle:hover {
+	background-color: #D0D0D0;
+	transform: scale(1.05);
+}
+
 .container-fluid {
 	background-color: #FCFAFA;
 }

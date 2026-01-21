@@ -8,9 +8,10 @@ const translations = {
         contactLink: 'İletişim',
         heroTitle: 'Yapım Aşamasında!...',
         heroMetaText: 'Yakında tamamlanır sanırım. Tamamlanınca içinde neler olacak acaba?',
+        authorName: 'Eylül Oktay',
         authorTag: 'Eş / Takipçi',
-        articleTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...', // Yer tutucu, gerçek içerikle değiştirilecek
-        articleText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut', // Yer tutucu
+        articleTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
+        articleText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut',
         moreArticlesButton: 'Daha Fazla Makale',
         footerLink1: 'Ana Sayfa',
         footerLink2: 'Hakkımda',
@@ -25,9 +26,10 @@ const translations = {
         contactLink: 'Kontakt',
         heroTitle: 'Im Aufbau!...',
         heroMetaText: 'Ich denke, es wird bald fertig sein. Was wird es wohl enthalten, wenn es fertig ist?',
+        authorName: 'Eylül Oktay',
         authorTag: 'Ehefrau / Follower',
-        articleTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...', // Yer tutucu, gerçek içerikle değiştirilecek
-        articleText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut', // Yer tutucu
+        articleTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
+        articleText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut',
         moreArticlesButton: 'Weitere Artikel',
         footerLink1: 'Startseite',
         footerLink2: 'Über mich',
