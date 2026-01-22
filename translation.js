@@ -2,11 +2,11 @@
 
 const translations = {
     'tr': {
-        navLink1: 'Ana Sayfa',
-        navLink2: 'Hakkımda',
-        navLink3: 'Projeler',
+        navLink1: 'Hakkımda',
+        navLink2: 'Yetenekler',
+        navLink3: 'Blog',
         contactLink: 'İletişim',
-        heroTitle: 'Yapım Aşamasında!...',
+        heroTitle: 'Yapım Aşamasında !!!',
         heroMetaText: 'Yakında tamamlanır sanırım. Tamamlanınca içinde neler olacak acaba?',
         authorName: 'Eylül Oktay',
         authorTag: 'Eş / Takipçi',
@@ -22,14 +22,33 @@ const translations = {
         kontaktName: 'İsim',
         kontaktEmail: 'E-posta',
         kontaktMessage: 'Mesajınız',
-        kontaktSubmit: 'Gönder'
+        kontaktSubmit: 'Gönder',
+        übermichText: 'Merhaba! Ben Caner Oktay, web geliştirme alanında uzmanlaşmış bir profesyonelim. Yaratıcılık ve teknolojinin birleştiği projelerde çalışmaktan keyif alıyorum.',
+        übermichText2: '2005 yılından beri, birçok projede yer almış ve müşterilerim  için değer yaratmayı öncelliklendirmişdir. Frontend ve Backend birçok teknolojide deneyimim bulunmaktadır.',
+        webDesign: 'Web Tasarım',
+        webEnt: 'Web Geliştirme',
+        frontEndEnt: 'Front-End Geliştirme',
+        backEndEnt: 'Back-End Geliştirme',
+        backEndEntText: 'C#, Python ve diğer dilleri kullanarak güvenli, ölçeklenebilir backend sistemleri oluşturuyorum.',
+        mobileEnt: 'Mobil Geliştirme',
+        mobileEntText: 'React Native ve Flutter kullanarak, iOS ve Android için Native ve Hibrit mobil uygulamalar geliştiriyorum.',
+        webDesignText: 'Modern ve responsive web uygulamaları geliştiriyorum. Python, C#, PHP, HTML5, CSS3 ve JavaScript kullanarak hedef kitlesine ulaşan siteler oluşturuyorum.',
+        uiux: 'UI / UX Tasarımı',
+        uiuxText: 'Kullanıcı deneyimini ön planda tutarak, estetik ve işlevsel tasarımlar yaratıyorum. Her piksel hesaplanarak tasarlanmış görseller sunarım.',
+        db: 'Veritabanı Yönetimi',
+        dbTExt: 'MSSQL, MySQL, MongoDB, PostgreSQL gibi veritabanlarında çalışarak, veri güvenliği ve performansı sağlıyorum.',
+        seo: 'SEO Optimizasyonu',
+        seoText: 'Arama motorları için teknik SEO, içerik optimizasyonu ve stratejik iyileştirmeler yapıyorum.',
+        blogLink: 'Blog Sayfasina git',
+        blogTitle:'Caner in Blogu',
+        blogText: 'Sürekli öğrenme ve paylaşma tutkusuyla oluşturulmuş bir alan. Teknoloji, sanat ve kişisel gelişim üzerine notlarımı paylaştığım bir Blog. Sizi kendi penceremden dünyaya bakmaya ve bu yolculuğa ortak olmaya davet ediyorum.',
     },
     'de': {
-        navLink1: 'Startseite',
-        navLink2: 'Über mich',
-        navLink3: 'Projekte',
+        navLink1: 'Über mich',
+        navLink2: 'Fähigkeiten',
+        navLink3: 'Blog',
         contactLink: 'Kontakt',
-        heroTitle: 'Im Aufbau!...',
+        heroTitle: 'Im Aufbau !!!',
         heroMetaText: 'Ich denke, es wird bald fertig sein. Was wird es wohl enthalten, wenn es fertig ist?',
         authorName: 'Eylül Oktay',
         authorTag: 'Ehefrau / Follower',
@@ -45,7 +64,27 @@ const translations = {
         kontaktName: 'Name',
         kontaktEmail: 'E-Mail',
         kontaktMessage: 'Ihre Nachricht',
-        kontaktSubmit: 'Abschicken'
+        kontaktSubmit: 'Abschicken',
+        übermichText: 'Hallo! Ich bin Caner Oktay, ein Fachmann im Bereich Webentwicklung. Ich arbeite gerne an Projekten, bei denen Kreativität und Technologie zusammenkommen.',
+        übermichText2: 'Seit 2005 habe ich an zahlreichen Projekten mitgewirkt und mich dabei stets darauf konzentriert, Mehrwert für meine Kunden zu schaffen. Ich verfüge über Erfahrung in vielen Frontend- und Backend Technologien.',
+        webDesign: 'Webdesign',
+        webEnt: 'Webentwicklung',
+        frontEndEnt: 'Front-End Entwickeln',
+        backEndEnt: 'Back-End Entwickeln',
+        backEndEntText: 'Ich entwickle sichere, skalierbare Backend-Systeme mit C#, Python und anderen Sprachen.',
+        mobileEnt: 'Mobil Entwickeln',
+        mobileEntText: 'Mit React Native und Flutter entwickle ich native und hybride mobile Anwendungen für iOS und Android.',
+        webDesignText: 'Ich entwickle moderne und responsive Webanwendungen. Mit Python, C#, PHP, HTML5, CSS3 und JavaScript erstelle ich Websites, die ihre Zielgruppe erreichen.',
+        uiux: 'UI / UX Design',
+        uiuxText: 'Ich stelle die Benutzererfahrung in den Vordergrund und erstelle ästhetische und funktionale Designs. Ich biete Grafiken, die Pixel für Pixel berechnet wurden.',
+        db: 'Datenbankverwaltung',
+        dbTExt: 'Ich arbeite mit Datenbanken wie MSSQL, MySQL, MongoDB und PostgreSQL und sorge für Datensicherheit und Leistung.',
+        seo: 'SEO-Optimierung',
+        seoText: 'Ich führe technische SEO, Inhaltsoptimierung und strategische Verbesserungen für Suchmaschinen durch.',
+        blogLink: 'Zur Blog-Seite gehen',
+        blogTitle:'Caners Blogseite',
+        blogText: 'Ein Raum, der aus der Leidenschaft für ständiges Lernen und Teilen entstanden ist. Ein Blog, in dem ich meine Notizen zu Technologie, Kunst und persönlicher Weiterentwicklung teile. Ich lade Sie ein, die Welt aus meiner Perspektive zu betrachten und Teil dieser Reise zu werden.', 
+
     }
 };
 
@@ -61,22 +100,22 @@ function setLanguage(lang) {
             }
         }
     });
-    // Buton metnini güncelleyin
+
     const langToggleButton = document.getElementById('lang-toggle');
     if (langToggleButton) {
-        langToggleButton.textContent = lang === 'tr' ? 'DE / TR' : 'TR / DE'; // Mevcut dil TR ise butonda DE/TR yazsın (DE'ye geçiş için), DE ise TR/DE yazsın (TR'ye geçiş için)
+        langToggleButton.textContent = lang === 'tr' ? '  DE  ' : '  TR  '; // Mevcut dil TR ise butonda DE/TR yazsın (DE'ye geçiş için), DE ise TR/DE yazsın (TR'ye geçiş için)
         langToggleButton.setAttribute('data-current-lang', lang);
     }
     localStorage.setItem('selectedLanguage', lang);
 }
 
 function toggleLanguage() {
-    const currentLang = localStorage.getItem('selectedLanguage') || 'tr'; // Varsayılan olarak Türkçe
-    const newLang = currentLang === 'tr' ? 'de' : 'tr';
+    const currentLang = localStorage.getItem('selectedLanguage') || 'de'; // Varsayılan olarak Türkçe
+    const newLang = currentLang === 'de' ? 'tr' : 'de';
     setLanguage(newLang);
 }
 
-// Dil değiştirme butonu için olay dinleyicisi
+
 document.addEventListener('DOMContentLoaded', () => {
     const langToggleButton = document.getElementById('lang-toggle');
     if (langToggleButton) {
