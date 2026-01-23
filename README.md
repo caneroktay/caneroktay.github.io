@@ -17,6 +17,9 @@ Was steckt technisch dahinter? Das Ganze basiert auf dem Bootstrap-Framework. Ab
 * **`Bootstrap CSS`** : Das Framework für das Layout und Design.
 * **`Fontawesome`** : Bibliothek für Icons (Symbole wie Facebook- oder Code-Icons).
 
+
+"Schau dir bitte mal diese Seite an: [https://getbootstrap.com/docs/4.0/layout/overview/](https://getbootstrap.com/docs/4.0/layout/overview/). Dort wird erklärt, wie sich die Layouts mit Bootstrap je nach Gerät in Größe und Position anpassen."
+
 ---
 
 ### 2. Navigationsleiste (`<nav>`)
