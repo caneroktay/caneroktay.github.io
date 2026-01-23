@@ -81,6 +81,20 @@ Ermöglicht Besuchern das Senden von Nachrichten.
 * **`input / textarea`** : Felder für Name, E-Mail und die Nachricht.
 * **`button type="submit"`** : Der Absendeknopf für das Formular.
 
+
+Hier ist der Aufbau meines Kontaktformulars:
+
+Das Ganze ist in einem **Bootstrap-Container** (`container-fluid`) eingebettet, damit es über die volle Breite geht und responsiv bleibt. Der Kern ist aber das `<form>`-Tag.
+
+**Wie funktioniert das Versenden?**
+Anstatt ein eigenes Backend mit PHP oder Node.js zu schreiben, nutze ich den Dienst  **Formspree** . Das siehst du am `action`-Attribut: Sobald der Nutzer auf 'Abschicken' klickt, werden die Daten direkt an die URL von Formspree gesendet. Die Methode ist hier `POST`, was der Standard für den sicheren Datenversand ist.
+
+**Die Struktur:**
+
+* **Inputs:** Ich frage den Namen, die E-Mail und die Nachricht ab. Alle Felder haben das Attribut `required`, damit man das Formular nicht leer abschicken kann.
+* **Mehrsprachigkeit:** Damit die Seite multilingual bleibt, verwende ich `data-translate-key`. Ein JavaScript im Hintergrund erkennt diese Keys und tauscht die Texte (z. B. 'Schreib mir!') je nach gewählter Sprache aus.
+* **Styling:** Die Labels habe ich mit Inline-CSS (`margin` und `font-size`) direkt angepasst, damit sie optisch sauber über den Eingabefeldern sitzen.c
+
 ---
 
 ### 8. Footer (`<footer>`)
