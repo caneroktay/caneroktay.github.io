@@ -54,17 +54,7 @@ a:hover {
 	position: relative;
 }
 
-.date {
-	display: inline-block;
-	font-size: 18px;
-	color: #818181;
-}
 
-.tags .badge-light{
-	background-color: #EDEDED;
-	color: #555;
-	font-weight: normal;
-}
 
 .hero-img-container {
 	position: absolute;
@@ -144,52 +134,9 @@ a:hover {
 	color: #818181;
 }
 
-.article-card {
-	margin: 20px 0; 
-	transition: 400ms;
-}
-.article-card:hover {
-	transform: scale(1.05);
-}
 
-.article-img , .article-meta {
-	display: inline-block;
-	vertical-align: top;
-}
 
-.article-img {
-	max-width: 160px;
-	height: 160px;
-	overflow: hidden;
-	border-radius: 100px;
-}
 
-.article-img img {
-	width: 100%;
-	height: auto;
-}
-
-.article-meta {
-	max-width: 360px;
-	margin-top: 15px;
-	margin-left: 10px;
-}
-
-.article-meta h2 {
-	font-size: 26px;
-	font-weight: bold;
-	color: #000;
-	font-family: 'Playfair display'
-}
-
-.article-meta p {
-	color: #404040;
-}
-
-.btn-lg {
-	font-size: 18px;
-	padding: 10px 30px;
-}
 
 .btn-light {
 	border-radius: 50px;
@@ -203,7 +150,7 @@ a:hover {
 		border: none;
 }
 
-footer .btn-light , #social-share .btn-light {
+footer .btn-light {
 	width : 40px;
 	height: 40px;
 	text-align: center;
@@ -218,24 +165,6 @@ footer a {
 
 
 
-#content .lead {
-	font-size: 22px;
-	font-weight: normal;
-	line-height: 35px;
-	margin-top: 0;
-}
-
-#content p {
-	font-size: 18px;
-	line-height: 30px;
-}
-
-#social-share .btn-light{
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-}
-
 /* Media Queries */
 
 @media(max-width: 1200px) {
@@ -247,13 +176,7 @@ footer a {
 		height: 500px;
 	}
 
-	.article-card {
-		text-align: center;
-	}
-	.article-meta {
-		max-width: 450px;
-		text-align: left;
-	}
+
 
 	footer {
 		text-align: center;
@@ -296,9 +219,7 @@ footer a {
 @media(max-width: 585px){
 	
 
-	.article-card .text-left{
-		text-align: center !important;
-	}
+
 
 	.hero-img {
 		width: 350px;
@@ -318,76 +239,7 @@ footer a {
 
 		
 }
-/* form  */
 
-.form-container {
-  background-color: #ffffff;
-  padding: 31px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.57);
-  width: 100%;
-  max-width: 90%;
-  margin-top: 50px;
-  margin: 150px auto;
-  max-width: 800px;
-}
-
-        
-
-        .form-group {
-            margin-bottom: 18px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-            color: #555;
-            font-weight: bold;
-        }
-
-        input[type="text"],
-        input[type="email"],
-        textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ddd;
-            border-radius: 25px;
-            box-sizing: border-box; /* Padding'in genişliğe dahil olmasını sağlar */
-            font-size: 16px;
-            color: #333;
-        }
-
-        textarea {
-            resize: vertical; /* Sadece dikeyde boyutlandırma */
-            min-height: 100px;
-        }
-
-        input[type="checkbox"] {
-            margin-right: 8px;
-        }
-
-        .checkbox-group {
-            display: flex;
-            align-items: center;
-            margin-top: 20px;
-            margin-bottom: 25px;
-        }
-
-        button2 {
-            background-color: #007bff; /* Mavi gönder butonu */
-            color: white;
-            padding: 14px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 18px;
-            width: 100%;
-            transition: background-color 0.3s ease;
-        }
-
-        button:hover {
-            background-color: #0056b3; /* Buton üzerine gelince rengi koyulaşır */
-        }
 
 /* One-Page Site Styles */
 .section-title {
@@ -503,12 +355,7 @@ footer a {
 	line-height: 1.6;
 }
 
-/* Portfolio Section */
-#portfolio {
-	padding-top: 80px;
-	padding-bottom: 80px;
-	background-color: #fff;
-}
+
 
 .portfolio-card {
 	border-radius: 10px;
