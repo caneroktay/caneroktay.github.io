@@ -119,14 +119,14 @@ function setLanguage(lang) {
 
     const langToggleButton = document.getElementById('lang-toggle');
     if (langToggleButton) {
-        langToggleButton.textContent = lang === 'tr' ? '  DE  ' : '  TR  '; // Mevcut dil TR ise butonda DE/TR yazsın (DE'ye geçiş için), DE ise TR/DE yazsın (TR'ye geçiş için)
+        langToggleButton.textContent = lang === 'tr' ? '  DE  ' : '  TR  '; 
         langToggleButton.setAttribute('data-current-lang', lang);
     }
     localStorage.setItem('selectedLanguage', lang);
 }
 
 function toggleLanguage() {
-    const currentLang = localStorage.getItem('selectedLanguage') || 'de'; // Varsayılan olarak Türkçe
+    const currentLang = localStorage.getItem('selectedLanguage') || 'de'; 
     const newLang = currentLang === 'de' ? 'tr' : 'de';
     setLanguage(newLang);
 }
@@ -136,12 +136,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const langToggleButton = document.getElementById('lang-toggle');
     if (langToggleButton) {
         langToggleButton.addEventListener('click', (event) => {
-            event.preventDefault(); // Varsayılan bağlantı davranışını engelle
+            event.preventDefault(); 
             toggleLanguage();
         });
     }
 
-    // Sayfa yüklendiğinde başlangıç dilini ayarla
+   
     const initialLang = localStorage.getItem('selectedLanguage') || 'de';
     setLanguage(initialLang);
 });
