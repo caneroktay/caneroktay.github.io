@@ -4,7 +4,8 @@ const translations = {
     'tr': {
         navLink1: 'Hakkımda',
         navLink2: 'Yetenekler',
-        navLink3: 'Blog',
+        navLink3: 'Projeler',
+        navLink4: 'Blog',
         contactLink: 'İletişim',
         heroTitle: 'Yapım Aşamasında !!!',
         heroMetaText: 'Yakında tamamlanır sanırım. Tamamlanınca içinde neler olacak acaba?',
@@ -42,11 +43,20 @@ const translations = {
         blogLink: 'Blog Sayfasina git',
         blogTitle:'Caner in Blogu',
         blogText: 'Sürekli öğrenme ve paylaşma tutkusuyla oluşturulmuş bir alan. Teknoloji, sanat ve kişisel gelişim üzerine notlarımı paylaştığım bir Blog. Sizi kendi penceremden dünyaya bakmaya ve bu yolculuğa ortak olmaya davet ediyorum.',
+        projekte1Link: 'GitHub Sayfasina git',
+        projekte1Title:'CNR-ToDo (Web-App)',
+        projekte1Text: 'Bu web uygulaması, temel CRUD (Oluşturma, Okuma, Güncelleme, Silme) operasyonlarını kapsayan işlevsel bir "Yapılacaklar Listesi" uygulamasıdır. Detaylar Github sayfasindadir...',
+        projekte2Link: 'GitHub Sayfasina git',
+        projekte2Title:'Pausen Tracker (Web-App)',
+        projekte2Text: 'Bu web uygulaması, mola sürelerini takip etmek ve yönetmek için tasarlanmış işlevsel bir "Mola Takip" (Pausentracker) uygulamasıdır. Detaylar Github sayfasindadir...',
+        
+    
     },
     'de': {
         navLink1: 'Über mich',
         navLink2: 'Fähigkeiten',
-        navLink3: 'Blog',
+        navLink3: 'Projekte',
+        navLink4: 'Blog',
         contactLink: 'Kontakt',
         heroTitle: 'Im Aufbau !!!',
         heroMetaText: 'Ich denke, es wird bald fertig sein. Was wird es wohl enthalten, wenn es fertig ist?',
@@ -84,6 +94,12 @@ const translations = {
         blogLink: 'Zur Blog-Seite gehen',
         blogTitle:'Caners Blogseite',
         blogText: 'Ein Raum, der aus der Leidenschaft für ständiges Lernen und Teilen entstanden ist. Ein Blog, in dem ich meine Notizen zu Technologie, Kunst und persönlicher Weiterentwicklung teile. Ich lade Sie ein, die Welt aus meiner Perspektive zu betrachten und Teil dieser Reise zu werden.', 
+        projekte1Link: 'Zur GitHub-Seite gehen.',
+        projekte1Title:'CNR-ToDo (Web-App)',
+        projekte1Text: 'Diese Webanwendung ist eine funktionale „To-Do-Liste“, die grundlegende CRUD-Operationen (Anlegen, Lesen, Aktualisieren, Löschen) umfasst. Details finden Sie auf der Github-Seite...',
+        projekte2Link: 'Zur GitHub-Seite gehen.',
+        projekte2Title:'Pausen Tracker (Web-App)',
+        projekte2Text: 'Diese Webanwendung ist eine funktionale „Pausentracker“-App, die zur Verfolgung und Verwaltung von Pausenzeiten entwickelt wurde. Details finden Sie auf der Github-Seite...',
 
     }
 };
