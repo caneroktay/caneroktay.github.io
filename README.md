@@ -2,8 +2,6 @@
 
 Caner Oktay Personal Website
 
-
-
 "Zuerst habe ich ein fertiges Template gefunden, aber dann habe ich es komplett umgebaut – inklusive Sprachauswahl, One-Page-Struktur und vielen optischen Anpassungen.
 
 Was steckt technisch dahinter? Das Ganze basiert auf dem Bootstrap-Framework. Aber was macht Bootstrap eigentlich? Es liefert dir im Grunde eine riesige Palette an fertigen CSS-Styles. In diesem Paket sind bereits alle Klassen und Bezeichnungen enthalten, die man braucht, damit die Seite ‚responsive‘ ist – also auf jedem Gerät gut aussieht. Man muss diese Klassen dann nur noch im eigenen HTML-Code einbauen."
@@ -16,7 +14,6 @@ Was steckt technisch dahinter? Das Ganze basiert auf dem Bootstrap-Framework. Ab
 * **`Cache-Control / Pragma`** : Verhindert, dass der Browser eine veraltete Version der Seite speichert.
 * **`Bootstrap CSS`** : Das Framework für das Layout und Design.
 * **`Fontawesome`** : Bibliothek für Icons (Symbole wie Facebook- oder Code-Icons).
-
 
 "Schau dir bitte mal diese Seite an: [https://getbootstrap.com/docs/4.0/layout/overview/](https://getbootstrap.com/docs/4.0/layout/overview/). Dort wird erklärt, wie sich die Layouts mit Bootstrap je nach Gerät in Größe und Position anpassen."
 
@@ -84,7 +81,6 @@ Ermöglicht Besuchern das Senden von Nachrichten.
 * **`input / textarea`** : Felder für Name, E-Mail und die Nachricht.
 * **`button type="submit"`** : Der Absendeknopf für das Formular.
 
-
 Hier ist der Aufbau meines Kontaktformulars:
 
 Das Ganze ist in einem **Bootstrap-Container** (`container-fluid`) eingebettet, damit es über die volle Breite geht und responsiv bleibt. Der Kern ist aber das `<form>`-Tag.
@@ -115,5 +111,5 @@ Der untere Bereich der Webseite.
 Die Funktionalität der Seite.
 
 * **`jQuery / Bootstrap JS`** : Ermöglicht interaktive Elemente wie das einklappbare Menü.
-* **`translation.js`** : Ein Skript, das wahrscheinlich die Sprachumschaltung steuert.
+* **`translation.js`** : Ein Skript, das die Sprachumschaltung steuert.
 * **`Smooth scroll`** : Ein JavaScript-Code, der sanftes Scrollen zu den Abschnitten ermöglicht, wenn man auf einen Menüpunkt klickt.
