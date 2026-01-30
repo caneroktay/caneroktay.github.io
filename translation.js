@@ -18,7 +18,7 @@ const translations = {
         footerLink2: 'Hakkımda',
         footerLink3: 'Projeler',
         footerLink4: 'İletişim',
-        copyrightText: '&copy <a href="">caneroktay.com</a> Tüm Hakları Saklıdır.',
+        copyrightText: '&copy; <a href="">caneroktay.com</a> Tüm Hakları Saklıdır.',
         kontaktTitle: 'Bana Yaz!',
         kontaktName: 'İsim',
         kontaktEmail: 'E-posta',
@@ -37,7 +37,7 @@ const translations = {
         uiux: 'UI / UX Tasarımı',
         uiuxText: 'Kullanıcı deneyimini ön planda tutarak, estetik ve işlevsel tasarımlar yaratıyorum. Her piksel hesaplanarak tasarlanmış görseller sunarım.',
         db: 'Veritabanı Yönetimi',
-        dbTExt: 'MSSQL, MySQL, MongoDB, PostgreSQL gibi veritabanlarında çalışarak, veri güvenliği ve performansı sağlıyorum.',
+        dbText: 'MSSQL, MySQL, MongoDB, PostgreSQL gibi veritabanlarında çalışarak, veri güvenliği ve performansı sağlıyorum.',
         seo: 'SEO Optimizasyonu',
         seoText: 'Arama motorları için teknik SEO, içerik optimizasyonu ve stratejik iyileştirmeler yapıyorum.',
         blogLink: 'Blog Sayfasina git',
@@ -69,7 +69,7 @@ const translations = {
         footerLink2: 'Über mich',
         footerLink3: 'Projekte',
         footerLink4: 'Kontakt',
-        copyrightText: '&copy <a href="">caneroktay.com</a> Alle Rechte vorbehalten.',
+        copyrightText: '&copy; <a href="">caneroktay.com</a> Alle Rechte vorbehalten.',
         kontaktTitle: 'Schreib mir!',
         kontaktName: 'Name',
         kontaktEmail: 'E-Mail',
@@ -88,7 +88,7 @@ const translations = {
         uiux: 'UI / UX Design',
         uiuxText: 'Ich stelle die Benutzererfahrung in den Vordergrund und erstelle ästhetische und funktionale Designs. Ich biete Grafiken, die Pixel für Pixel berechnet wurden.',
         db: 'Datenbankverwaltung',
-        dbTExt: 'Ich arbeite mit Datenbanken wie MSSQL, MySQL, MongoDB und PostgreSQL und sorge für Datensicherheit und Leistung.',
+        dbText: 'Ich arbeite mit Datenbanken wie MSSQL, MySQL, MongoDB und PostgreSQL und sorge für Datensicherheit und Leistung.',
         seo: 'SEO-Optimierung',
         seoText: 'Ich führe technische SEO, Inhaltsoptimierung und strategische Verbesserungen für Suchmaschinen durch.',
         blogLink: 'Zur Blog-Seite gehen',
@@ -108,7 +108,7 @@ function setLanguage(lang) {
     const elements = document.querySelectorAll('[data-translate-key]');
     elements.forEach(element => {
         const key = element.getAttribute('data-translate-key');
-        if (translations[lang] && translations[lang][key]) {
+        if (translations[lang] && translations[lang][key] !== undefined) {
             if (key === 'copyrightText') {
                 element.innerHTML = translations[lang][key];
             } else {
