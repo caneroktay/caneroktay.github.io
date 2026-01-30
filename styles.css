@@ -75,7 +75,7 @@ a:hover {
 }
 
 .hero-title {
-	background-color: #FCFAFA;
+	background-color: #EDEDED;
 	border-radius: 150px;
 	padding: 15px 50px;
 	padding-right: 10px;
@@ -247,7 +247,6 @@ footer a {
 	font-weight: 700;
 	color: #333;
 	text-align: center;
-	margin-bottom: 10px;
 }
 
 .section-hr {
@@ -319,6 +318,7 @@ footer a {
 #services {
 	padding-top: 80px;
 	padding-bottom: 80px;
+	background: #ededed;
 }
 
 .service-card {
@@ -519,4 +519,15 @@ html {
 	.contact-section {
 		padding: 25px;
 	}
+}
+
+#blog {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: #ededed;
+}
+
+#projekte {
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
