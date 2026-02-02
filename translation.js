@@ -35,7 +35,7 @@ async function setLanguage(lang) {
 
 function toggleLanguage() {
     const currentLang = localStorage.getItem('selectedLanguage') || 'de';
-    const languages = ['de', 'tr', 'en'];
+    const languages = ['de', 'en', 'tr'];
     const currentIndex = languages.indexOf(currentLang);
     const newLang = languages[(currentIndex + 1) % languages.length];
     setLanguage(newLang);
