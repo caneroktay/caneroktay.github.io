@@ -4,7 +4,7 @@ async function setLanguage(lang) {
     try {
         const response = await fetch(`./locales/${lang}.json`);
         if (!response.ok) {
-            throw new Error(`Dil dosyası yüklenemedi: ${response.status} ${response.statusText}`);
+            throw new Error(`Die Sprachdatei konnte nicht geladen werden: ${response.status} ${response.statusText}`);
         }
         const translations = await response.json();
 
@@ -22,14 +22,14 @@ async function setLanguage(lang) {
 
         const langToggleButton = document.getElementById('lang-toggle');
         if (langToggleButton) {
-            const langMap = { 'de': 'TR / EN', 'tr': 'EN / DE', 'en': 'DE / TR' };
-            langToggleButton.textContent = langMap[lang] || 'DE / TR';
+            const langMap = { 'de': 'EN', 'en': 'TR', 'tr': 'DE' };
+            langToggleButton.textContent = langMap[lang] || 'DE';
             langToggleButton.setAttribute('data-current-lang', lang);
         }
         localStorage.setItem('selectedLanguage', lang);
 
     } catch (error) {
-        console.error('Çeviri hatası:', error);
+        console.error('Übersetzungsfehler:', error);
     }
 }
 
