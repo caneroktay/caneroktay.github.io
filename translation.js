@@ -22,7 +22,8 @@ async function setLanguage(lang) {
 
         const langToggleButton = document.getElementById('lang-toggle');
         if (langToggleButton) {
-            langToggleButton.textContent = lang === 'tr' ? '  DE  ' : '  TR  '; 
+            const langMap = { 'de': 'TR / EN', 'tr': 'EN / DE', 'en': 'DE / TR' };
+            langToggleButton.textContent = langMap[lang] || 'DE / TR';
             langToggleButton.setAttribute('data-current-lang', lang);
         }
         localStorage.setItem('selectedLanguage', lang);
@@ -33,8 +34,10 @@ async function setLanguage(lang) {
 }
 
 function toggleLanguage() {
-    const currentLang = localStorage.getItem('selectedLanguage') || 'de'; 
-    const newLang = currentLang === 'de' ? 'tr' : 'de';
+    const currentLang = localStorage.getItem('selectedLanguage') || 'de';
+    const languages = ['de', 'tr', 'en'];
+    const currentIndex = languages.indexOf(currentLang);
+    const newLang = languages[(currentIndex + 1) % languages.length];
     setLanguage(newLang);
 }
 
