@@ -26,7 +26,7 @@ Die Kopfzeile der Website zur Navigation.
 * **`navbar-brand`** : Enthält das Logo der Website.
 * **`navbar-toggler`** : Ein Button für die mobile Ansicht (Burger-Menü).
 * **`nav-link`** : Links zu den verschiedenen Abschnitten wie "Über mich", "Fähigkeiten", "Blog" und "Kontakt".
-* **`lang-toggle`** : Ein Umschalter zwischen Türkisch (TR) und Deutsch (DE).
+* **`lang-toggle`** : Ein Umschalter zwischen Deutsch (DE), English (EN) und Türkisch (TR).
 
 "Das verbessert die User Experience (UX) wirklich ungemein! Eine Navbar, die beim Scrollen mitläuft oder am oberen Rand fixiert bleibt (sticky/fixed), ist heutzutage ein absolutes Muss für moderne Websites.”
 
@@ -37,9 +37,8 @@ Die Kopfzeile der Website zur Navigation.
 Der erste sichtbare Bereich der Seite mit den wichtigsten Informationen.
 
 * **`hero-img`** : Das Hauptbild der Person (Caner Oktay).
-* **`hero-title (h1)`** : Die Hauptüberschrift, aktuell als Platzhalter "Im Aufbau !!!".
-* **`hero-meta`** : Ein kurzer Einleitungstext auf Türkisch.
-* **`author`** : Informationen über die Person, die den Text verfasst hat (Eylül Oktay).
+* **`hero-title (h1)`** : Die Hauptüberschrift, aktuell als Platzhalter "Hi !!!".
+* **`hero-meta`** : Ein kurzer Einleitungstext
 
 ---
 
@@ -92,9 +91,6 @@ Anstatt ein eigenes Backend mit PHP oder Node.js zu schreiben, nutze ich den Die
 
 * **Inputs:** Ich frage den Namen, die E-Mail und die Nachricht ab. Alle Felder haben das Attribut `required`, damit man das Formular nicht leer abschicken kann.
 * **Mehrsprachigkeit:** Damit die Seite multilingual bleibt, verwende ich `data-translate-key`. Ein JavaScript im Hintergrund erkennt diese Keys und tauscht die Texte (z. B. 'Schreib mir!') je nach gewählter Sprache aus.
-* **Styling:** Die Labels habe ich mit Inline-CSS (`margin` und `font-size`) direkt angepasst, damit sie optisch sauber über den Eingabefeldern sitzen.c
-
----
 
 ### 8. Footer (`<footer>`)
 
