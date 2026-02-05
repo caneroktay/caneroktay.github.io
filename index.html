@@ -327,7 +327,7 @@
 		button:hover { background: #ae6d37; }
 	</style>
 <!-- Contact Form Ends -->
-<!-- Footer section  -->
+<!-- Footer section  --> 	<a href="#"
 	<footer class="container-fluid mt-1 p-4">
 		<div class="container ">
 			<div class="row pb-1"> 
@@ -381,12 +381,12 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="./translation.js"></script>
 	<script>
-        window.addEventListener('pageshow', function(event) {
-            var form = document.querySelector('contact-form');    // Form ID
-            if (form) {
-                form.reset();
-            }
-        });
+		window.addEventListener('pageshow', function(event) {
+			var form = document.querySelector('#contact-form');    // Form ID
+			if (form) {
+				form.reset();
+			}
+		});
 		// Smooth scroll for navigation links
 		document.querySelectorAll('a.scroll-link').forEach(anchor => {
 			anchor.addEventListener('click', function (e) {
