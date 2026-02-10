@@ -6,7 +6,7 @@ Caner Oktay Personal Website
 
 Was steckt technisch dahinter? Das Ganze basiert auf dem Bootstrap-Framework. Aber was macht Bootstrap eigentlich? Es liefert dir im Grunde eine riesige Palette an fertigen CSS-Styles. In diesem Paket sind bereits alle Klassen und Bezeichnungen enthalten, die man braucht, damit die Seite ‚responsive‘ ist – also auf jedem Gerät gut aussieht. Man muss diese Klassen dann nur noch im eigenen HTML-Code einbauen."
 
-### 1. Metadaten & Head (`<head>`)
+### 1. Metadaten & Head (`<head>`).
 
 * **`window.history.replaceState(...)`** : Entfernt die Dateiendung `.html` aus der URL für ein saubereres Erscheinungsbild.
 * **`<meta charset="utf-8">`** : Definiert die Zeichenkodierung (unterstützt Sonderzeichen).
