@@ -45,5 +45,6 @@
   "projekte1Text": "This web application is a functional \"To-Do List\" that includes basic CRUD operations (Create, Read, Update, Delete). Find details on the Github page...",
   "projekte2Link": "Go to GitHub Page.",
   "projekte2Title": "Pause Tracker (Web App)",
-  "projekte2Text": "This web application is a functional \"Pause Tracker\" app developed to track and manage break times. Find details on the Github page..."
+  "projekte2Text": "This web application is a functional \"Pause Tracker\" app developed to track and manage break times. Find details on the Github page...",
+  "chatbox": "Are you trying to reach me? Write here right away."
 }

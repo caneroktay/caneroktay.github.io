@@ -45,5 +45,6 @@
   "projekte1Text": "Bu web uygulaması, temel CRUD (Oluşturma, Okuma, Güncelleme, Silme) operasyonlarını kapsayan işlevsel bir \"Yapılacaklar Listesi\" uygulamasıdır. Detaylar Github sayfasindadir...",
   "projekte2Link": "GitHub Sayfasina git",
   "projekte2Title": "Pausen Tracker (Web-App)",
-  "projekte2Text": "Bu web uygulaması, mola sürelerini takip etmek ve yönetmek için tasarlanmış işlevsel bir \"Mola Takip\" (Pausentracker) uygulamasıdır. Detaylar Github sayfasindadir..."
+  "projekte2Text": "Bu web uygulaması, mola sürelerini takip etmek ve yönetmek için tasarlanmış işlevsel bir \"Mola Takip\" (Pausentracker) uygulamasıdır. Detaylar Github sayfasindadir...",
+  "chatbox": "Bana ulaşmaya mı çalışıyorsun? Hemen buradan yaz."
 }
