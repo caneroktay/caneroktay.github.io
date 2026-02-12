@@ -1,0 +1,213 @@
+/*
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Chat Button */
+.chat-button {
+    position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #ff8c00, #ff6b00);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(64, 64, 64, 0.4);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.chat-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(255, 107, 0, 0.6);
+}
+
+.chat-button svg {
+    width: 60px;
+    height: 60px;
+    fill: white;
+}
+
+/* Chat Box */
+.chat-box {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    width: 300px;
+    background: #dd8741;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transform: scale(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+    z-index: 999;
+}
+
+.chat-box.active {
+    transform: scale(1);
+}
+
+/* Header */
+.chat-header {
+    background: #2c2c2c;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile-pic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #ddd;
+    position: relative;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.online-indicator {
+    width: 12px;
+    height: 12px;
+    background: #4caf50;
+    border: 2px solid #2c2c2c;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+.profile-info h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.profile-info p {
+    color: #4caf50;
+    font-size: 13px;
+}
+
+.close-button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.close-button:hover {
+    opacity: 1;
+}
+
+/* Message Box */
+.message-box {
+   background: #dd8741;
+  padding: 20px 20px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.time-stamp {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.message-bubble {
+    background: white;
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message-text {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.message-text:last-child {
+    margin-bottom: 0;
+}
+
+/* Telegram Button */
+.telegram-button {
+    margin: 20px;
+    background: #2c2c2c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background 0.3s ease;
+    text-decoration: none;
+}
+
+.telegram-button:hover {
+    background: #1a1a1a;
+    color: white;
+}
+
+.telegram-button svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .chat-box {
+        width: calc(100vw - 20px);
+        right: 10px;
+        bottom: 90px;
+    }
+
+    .chat-button {
+        right: 20px;
+        bottom: 20px;
+    }
+}

@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="./styles.css">
+	<link rel="stylesheet" type="text/css" href="./chat.css">
     <title>Caner Oktay</title>
 
 	<link rel="apple-touch-icon" href="./img/hero-img-caner.png">
@@ -408,6 +409,80 @@
 		});
     </script>
 <!-- JS section Ends-->
+ <!-- Chat Button -->
+    <div class="chat-button" id="chatButton">
+        <svg viewBox="0 0 24 24">
+           <path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/>
+        </svg>
+    </div>
+
+    <!-- Chat Box -->
+    <div class="chat-box" id="chatBox">
+        <div class="chat-header">
+            <div class="profile-section">
+                <div class="profile-pic">
+                    <img src="./img/hero-img-caner.png" alt="Caner Oktay">
+                    <div class="online-indicator"></div>
+                </div>
+                <div class="profile-info">
+                    <h3>Caner Oktay</h3>
+                    <p>Online</p>
+                </div>
+            </div>
+            <button class="close-button" id="closeButton">×</button>
+        </div>
+
+        <div class="message-box">
+            <div class="time-stamp">10:35</div>
+            <div class="message-bubble">
+                <div class="message-text">Are you trying to reach me? Write here right away.</div>
+                <div class="message-text">Versuchst du mich zu erreichen? Schreib mir direkt hier.</div>
+                <div class="message-text">Bana ulaşmaya mı çalışıyorsun? Hemen buradan yaz.</div>
+            </div>
+        </div>
+
+        <a href="https://t.me/caner_oktay" class="telegram-button" target="_blank">
+            <svg viewBox="0 0 24 24">
+                <path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/>
+            </svg>
+            Chat with Caner
+        </a>
+    </div>
+
+    <script>
+    const chatButton = document.getElementById('chatButton');
+    const chatBox = document.getElementById('chatBox');
+    const closeButton = document.getElementById('closeButton');
+    const timeStamp = document.querySelector('.time-stamp');
+
+
+    function updateTime() {
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        timeStamp.textContent = `${hours}:${minutes}`;
+    }
+
+    chatButton.addEventListener('click', () => {
+        if (chatBox.classList.contains('active')) {
+            chatBox.classList.remove('active'); 
+        } else {
+            chatBox.classList.add('active'); 
+            updateTime(); 
+        }
+    });
+
+    closeButton.addEventListener('click', () => {
+        chatBox.classList.remove('active');
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!chatBox.contains(e.target) && !chatButton.contains(e.target)) {
+            chatBox.classList.remove('active');
+        }
+    });
+    updateTime();
+</script>
 </body>
 
 </html>
