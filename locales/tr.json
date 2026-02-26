@@ -46,6 +46,10 @@
   "projekte2Link": "GitHub Sayfasina git",
   "projekte2Title": "Pausen Tracker (Web-App)",
   "projekte2Text": "Bu web uygulaması, mola sürelerini takip etmek ve yönetmek için tasarlanmış işlevsel bir \"Mola Takip\" (Pausentracker) uygulamasıdır. Detaylar Github sayfasindadir...",
+  "projekte3Link": "GitHub Sayfasina git",
+  "projekte3Title": "Handwerker Pro",
+  "projekte3Text": "Zanaat ve teknik servis işletmeleri için tüm temel iş süreçlerini dijitalleştiren ve düzenleyen bir web uygulaması.",
+
   "chatbox": "Bana ulaşmaya mı çalışıyorsun? Hemen buradan yaz.",
   "chatbutton": "Şimdi sohbet et"
 }
