@@ -1,6 +1,6 @@
 # caneroktay.github.io
 
-Caner Oktay Personal Website
+Caner Oktay Personal Website.
 
 "Zuerst habe ich ein fertiges Template gefunden, aber dann habe ich es komplett umgebaut – inklusive Sprachauswahl, One-Page-Struktur und vielen optischen Anpassungen.
 
