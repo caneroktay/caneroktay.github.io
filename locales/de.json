@@ -47,8 +47,11 @@
   "projekte2Title": "Pausen Tracker (Web-App)",
   "projekte3Link": "Zur GitHub-Seite gehen.",
   "projekte2Text": "Diese Webanwendung ist eine funktionale „Pausentracker“-App, die zur Verfolgung und Verwaltung von Pausenzeiten entwickelt wurde. Details finden Sie auf der Github-Seite...",
-  "projekte3Title": "Handwerker Plus (Im Aufbau..!)",
+  "projekte3Title": "Handwerker Plus (BackEnd Project)",
   "projekte3Text": "Eine Web-App zur strukturierten Verwaltung aller relevanten Geschäftsprozesse für Handwerksbetriebe.",
+  "projekte4Title": "MeinHerz (Android-App)",
+  "projekte4Text": "Diese App ist eine native Android-Anwendung für Patienten mit Herzinsuffizienz oder erhöhtem Herzrisiko.",
+  
   "chatbox": "Versuchst du mich zu erreichen? Schreib mir direkt hier.",
   "chatbutton": "Jetzt chatten"
 }
