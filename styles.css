@@ -200,8 +200,8 @@ footer a {
 /* About Section */
 #about {
 	background-color: #fff;
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .about-image {
@@ -255,8 +255,8 @@ footer a {
 
 /* Services Section */
 #services {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	background: #ededed;
 }
 
@@ -373,8 +373,8 @@ footer a {
 
 /* Contact Section */
 #contact {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .contact-section {
@@ -453,14 +453,14 @@ html {
 }
 
 #blog {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	background: #ededed;
 }
 
 #projekte {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 /* ==========================================================================
    Liquid Glass & Dark Mode
@@ -743,4 +743,14 @@ body {
 .row {
 	margin-left: 0;
 	margin-right: 0;
+}
+
+.navbar-brand {
+
+  margin-right: 0rem;
+}
+
+#contact .section-hr {
+
+	margin: 0px auto;
 }
