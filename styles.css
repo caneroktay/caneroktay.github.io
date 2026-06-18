@@ -211,6 +211,7 @@ footer a {
 	border-radius: 10px;
 	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 	margin-bottom: 30px;
+	max-height: 400px;
 }
 
 .about-text {
