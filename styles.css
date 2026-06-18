@@ -42,46 +42,46 @@ a:hover {
 
 #hero {
 	padding: 80px 0;
-	min-height: 700px;
+	min-height: 600px;
 	position: relative;
 }
 
 .hero-img-container {
 	position: absolute;
-	left: 0px;
+	left: 100px;
 	padding: 0;
 }
 
 .hero-img {
-	max-width: 540px !important;
-	height: 540px;
+	max-width: 400px !important;
+	height: 400px;
 	overflow: hidden;
 	border-radius: 100%;
 }
 
 .hero-img img {
-	width: 100%;
+	width: 110%;
 	height: auto;
-	padding-top: 30px;
+	padding-top: 0px;
+	margin-left: -25px;
 }
 
 .hero-title {
 	background-color: #EDEDED;
-	border-radius: 150px;
-	padding: 15px 50px;
-	padding-right: 10px;
-	/*margin-top: 95px;*/
-	font-family: 'Playfair display'
+	border-radius: 20px;
+	padding: 5px 0px 0px 0px;
+	margin-top: 25px;
+	font-family: 'Playfair display';
+	max-width: 650px;
+	text-align: center;
 }
 
 .hero-title h1 {
 	font-size: 60px;
 	font-weight: bold;
-	line-height: 70px;
 	color: #000;
 	text-decoration: none;
-	transition: 500ms;
-
+	transition: 450ms;
 }
 .hero-title a h1:hover {
 	transform: scale(1.01);
@@ -120,15 +120,10 @@ footer a {
 
 /* Media Queries */
 @media(max-width: 1200px) {
-
-
-
 	.hero-img {
-		width: 500px;
-		height: 500px;
+		width: 400px;
+		height: 400px;
 	}
-
-
 
 	footer {
 		text-align: center;
@@ -137,7 +132,12 @@ footer a {
 	footer .justify-content-end {
 		justify-content: center!important;
 	}
+	.hero-img-container {
+		left: 50px;
+	}
+	
 }
+
 @media(max-width: 992px) 
 {
 	#hero {
@@ -148,6 +148,8 @@ footer a {
 		position: static;
 		margin: 10px auto;
 		text-align: center;
+		
+		
 	}
 
 	.hero-img-container .hero-img {
@@ -155,7 +157,7 @@ footer a {
 	}
 
 	.hero-title {
-		padding: 0;
+		padding-left: 0px;
 		margin: 0;
 	}
 		#hero {
@@ -221,6 +223,7 @@ footer a {
 
 .skills-section {
 	margin-top: 40px;
+	text-align: left;
 }
 
 .skills-section h4 {
@@ -576,7 +579,10 @@ body {
     color: var(--text-muted) !important;
 }
 
-.hero-title { background-color: var(--hero-box) !important; }
+.hero-title { background-color: var(--hero-box) !important; 
+	backdrop-filter: blur(5px) saturate(180%);
+    -webkit-backdrop-filter: blur(5px) saturate(180%);
+}
 .service-card { background-color: var(--bg-card) !important; }
 .portfolio-meta { background-color: var(--portfolio-meta-bg) !important; }
 .modal-content { background: var(--bg-card) !important; color: var(--text-main) !important; }
@@ -746,6 +752,7 @@ body {
 .row {
 	margin-left: 0;
 	margin-right: 0;
+	text-align: center;
 }
 
 .navbar-brand {
