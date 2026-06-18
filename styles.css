@@ -191,7 +191,7 @@ footer a {
 .section-hr {
 	width: 60px;
 	height: 4px;
-	background: linear-gradient(to right, #ef720b, #fdfdfd);
+	background: linear-gradient(to right, #ff8136, #fdfdfd);
 	border: none;
 	margin: 20px auto;
 	border-radius: 2px;
@@ -248,7 +248,7 @@ footer a {
 }
 
 .skill-item .progress-bar {
-	background: linear-gradient(to right, #ef720b, #ef720b);
+	background: linear-gradient(to right, #ff8136, #ff8136);
 	height: 100%;
 	transition: width 0.6s ease;
 }
@@ -277,7 +277,7 @@ footer a {
 
 .service-icon {
 	font-size: 3rem;
-	color: #ef720b;
+	color: #ff8136;
 	margin-bottom: 20px;
 }
 
@@ -368,7 +368,7 @@ footer a {
 .portfolio-tags .badge {
 	font-size: 0.8rem;
 	padding: 5px 10px;
-	background-color: #ef720b;
+	background-color: #ff8136;
 }
 
 /* Contact Section */
@@ -402,13 +402,13 @@ footer a {
 .contact-section input:focus,
 .contact-section textarea:focus {
 	outline: none;
-	border-color: #ef720b;
+	border-color: #ff8136;
 	box-shadow: 0 0 0 3px rgba(221, 135, 65, 0.1);
 }
 
 .contact-section button {
 	padding: 12px;
-	background: #ef720b;
+	background: #ff8136;
 	color: white;
 	border: none;
 	cursor: pointer;
@@ -419,7 +419,7 @@ footer a {
 }
 
 .contact-section button:hover {
-	background: #ef720b;
+	background: #ff8136;
 }
 
 /* Scroll link animations */
@@ -598,8 +598,8 @@ body {
     top: 0;
     z-index: 1050;
     background-color: rgba(252, 250, 250, 0.7) !important; 
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    backdrop-filter: blur(5px) saturate(180%);
+    -webkit-backdrop-filter: blur(5px) saturate(180%);
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
     transition: background-color 0.3s ease, border-color 0.3s ease;
@@ -758,4 +758,8 @@ body {
 }
 .navbar-nav {
 	text-align: right;
+}
+
+.badge-warning {
+	color: #fff;
 }
