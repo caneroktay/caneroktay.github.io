@@ -22,7 +22,7 @@ async function setLanguage(lang) {
 
         const langToggleButton = document.getElementById('lang-toggle');
         if (langToggleButton) {
-            const langMap = { 'de': 'EN', 'en': 'TR', 'tr': 'DE' };
+            const langMap = { 'de': 'DE', 'en': 'EN', 'tr': 'TR' };
             langToggleButton.textContent = langMap[lang] || 'DE';
             langToggleButton.setAttribute('data-current-lang', lang);
         }
