@@ -309,64 +309,30 @@
 		</div>
 	</div>
 <!-- Projekte ends -->
-<!-- Blog Section -->
+<!-- Contact Section -->
 	<div class="container-fluid" id="blog">
 		<div class="container pt-5 pb-5">
-			<div class="row">
-				<div class="col-lg-12">
-					<h2 data-translate-key="navLink4" class="section-title">Blog</h2>
+			<div class="contact-section">
+				<form id="contact-form" action="https://formspree.io/f/xqeevwvj" method="POST" autocomplete="off">
+					<h2 data-translate-key="kontaktTitle" class="section-title">Schreib mir!</h2>
 					<hr class="section-hr">
-				</div>
+					
+					<label data-translate-key="kontaktName" style="margin-bottom: -10px;margin-left: 10px;font-size: 14px;" >Name:</label>
+					<input type="text" name="name" placeholder="..." required>
+					
+					<label data-translate-key="kontaktEmail" style="margin-bottom: -10px;margin-left: 10px;font-size: 14px;" >E-Mail:</label>
+					<input  type="email" name="email" placeholder="..." required>
+					
+					<label data-translate-key="kontaktMessage" style="margin-bottom: -10px;margin-left: 10px;font-size: 14px;" >Ihre Nachricht:</label>
+					<textarea name="message" placeholder="..." rows="6" required></textarea>
+					
+					<button data-translate-key="kontaktSubmit" type="submit">Abschicken</button>
+				</form>
 			</div>
-			<div class="col-xl-12 col-lg-12 mb-4">
-					<div class="portfolio-card">
-						<div class="portfolio-img">
-							<img src="./img/blogger-img.png" alt="Blog">
-							<div class="portfolio-overlay">
-								<!--<a href="https://blog.caneroktay.com/" class="btn btn-light" data-translate-key="blogLink">Zur Blog-Seite gehen</a> -->
-							</div>
-						</div>
-						<div class="portfolio-meta">
-							<h4 data-translate-key="blogTitle" >Caners Blogseite</h4>
-							<p data-translate-key="blogText">Ein Raum, der aus der Leidenschaft für ständiges Lernen und Teilen entstanden ist. Ein Blog, in dem ich meine Notizen zu Technologie, Kunst und persönlicher Weiterentwicklung teile. Ich lade Sie ein, die Welt aus meiner Perspektive zu betrachten und Teil dieser Reise zu werden.</p>
-							<div class="portfolio-tags">
-								<span class="badge badge-warning">Blogger By Google</span>
-							</div>
-						</div>
-					</div>
-				</div>
 		</div>
 	</div>
-<!-- Blog ends -->
-<!-- Contact Form -->
-	<div class="container-fluid" id="contact">
-		<div class="contact-section">
-		<form id="contact-form" action="https://formspree.io/f/xqeevwvj" method="POST" autocomplete="off">
-			<h2 data-translate-key="kontaktTitle" class="section-title">Schreib mir!</h2>
-			<hr class="section-hr">
-			
-			<label data-translate-key="kontaktName" style="margin-bottom: -10px;margin-left: 10px;font-size: 14px;" >Name:</label>
-			<input type="text" name="name" placeholder="..." required>
-			
-			<label data-translate-key="kontaktEmail" style="margin-bottom: -10px;margin-left: 10px;font-size: 14px;" >E-Mail:</label>
-			<input  type="email" name="email" placeholder="..." required>
-			
-			<label data-translate-key="kontaktMessage" style="margin-bottom: -10px;margin-left: 10px;font-size: 14px;" >Ihre Nachricht:</label>
-			<textarea name="message" placeholder="..." rows="6" required></textarea>
-			
-			<button data-translate-key="kontaktSubmit" type="submit">Abschicken</button>
-		</form>
-		</div>
-	</div>
-	<style>
-		.contact-section { max-width: 600px;  padding: 45px; }
-		form { display: flex; flex-direction: column; gap: 15px; }
-		input, textarea { padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-family: inherit; font-size: 16px; transition: border-color 0.3s; }
-		input:focus, textarea:focus { outline: none; border-color: #dd8741; }
-		button { padding: 12px; background: #dd8741; color: white; border: none; cursor: pointer; border-radius: 5px; font-weight: bold; font-size: 16px; transition: background 0.3s; }
-		button:hover { background: #ae6d37; }
-	</style>
-<!-- Contact Form Ends -->
+<!-- Contact ends -->
+
 <!-- Footer section.....  -->
 	<footer class="container-fluid mt-1 p-4">
 		<div class="container ">
