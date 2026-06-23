@@ -55,7 +55,6 @@ function initTranslation() {
     setLanguage(initialLang);
 }
 
-// If DOMContentLoaded already fired, run init immediately; otherwise wait for it.
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initTranslation);
 } else {
