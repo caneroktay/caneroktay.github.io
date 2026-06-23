@@ -733,14 +733,14 @@ body {
 }
 
 #lang-toggle {
-    font-size: 11px;
+    font-size: 18px;
     letter-spacing: -0.5px;
     padding: 0 !important;
 }
 
 #theme-toggle i {
-    font-size: 16px;
-    transition: transform 0.3s ease;
+    font-size: 20px;
+    transition: transform 0.4s ease;
 }
 
 #lang-toggle:hover, #theme-toggle:hover {
@@ -751,7 +751,7 @@ body {
 }
 
 #theme-toggle:hover i {
-    transform: rotate(15deg);
+    transform: rotate(385deg);
 }
 
 [data-theme="dark"] #lang-toggle,
